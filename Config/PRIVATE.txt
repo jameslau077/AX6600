@@ -1,0 +1,17 @@
+#增加docker
+CONFIG_PACKAGE_luci-app-dockerman=y
+CONFIG_PACKAGE_dockerd=y
+CONFIG_PACKAGE_docker=y
+CONFIG_PACKAGE_docker-compose=y
+CONFIG_PACKAGE_luci-lib-docker=y
+CONFIG_PACKAGE_cgroupfs-mount=y
+CONFIG_PACKAGE_tini=y
+CONFIG_PACKAGE_kmod-veth=y
+
+# iptables 兼容（推荐）
+CONFIG_PACKAGE_iptables-nft=y
+CONFIG_PACKAGE_iptables-mod-tproxy=y
+CONFIG_PACKAGE_iptables-mod-extra=y
+CONFIG_PACKAGE_ip6tables-nft=y
+CONFIG_PACKAGE_kmod-ipt-tproxy=y
+CONFIG_PACKAGE_kmod-ipt-extra=y
